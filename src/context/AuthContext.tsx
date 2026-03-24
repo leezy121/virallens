@@ -9,6 +9,7 @@ interface Profile {
   avatar_url: string | null
   plan: string
   credits: number
+  created_at: string
 }
 
 interface AuthContextType {
